@@ -14,6 +14,7 @@ class HelloWorld {
          
          if (!scan.hasNextInt()) {
              System.out.println("Must be an integer, try again.");
+             scan.nextLine();
              continue;
               
          }
