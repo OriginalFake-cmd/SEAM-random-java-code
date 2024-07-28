@@ -1,0 +1,18 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+         System.out.println(sumFromTo(4 , 7));
+         System.out.println(sumFromTo(-3 , 1));
+         System.out.println(sumFromTo(9 , 9));
+    } 
+     public static int sumFromTo(int start, int end) {
+         int m = 0;
+         for (int i = start; i <= end; i++) {
+             m = m + i;
+         }
+         return m;
+    
+     }
+}
