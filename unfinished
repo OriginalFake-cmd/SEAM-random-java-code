@@ -1,0 +1,15 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+    } 
+     public static void sumFromTo(int start, int end) {
+         System.out.println(sumFromTo(4 , 7));
+         System.out.println(sumFromTo(-3 , 1));
+         
+         System.out.println(sumFromTo(7 , 4));
+         System.out.println(sumFromTo(9 , 9));
+     }
+}
