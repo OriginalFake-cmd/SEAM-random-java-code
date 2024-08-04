@@ -1,0 +1,19 @@
+package domain;
+
+public class HelloWorld {
+    
+ public static Car lexus = new Car();
+
+    public static void main(String[] args) {
+        
+        lexus.make = "Lexus";
+        lexus.model = "RC-F Track Edition";
+        lexus.engine = "2UR-GSE V8 ";
+        
+        System.out.println("The car company: " + lexus.make);
+        System.out.println("The car model is: " + lexus.model);
+        System.out.println("The car engine is: " + lexus.engine);
+
+    }
+
+}
