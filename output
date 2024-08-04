@@ -1,0 +1,17 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int y = 7; 
+        for(int i = 1; i <= 7; i++){
+             for(int x = 1; x <= y; x++){
+            System.out.print(x);
+            
+             }
+             y = y - 1;
+             System.out.println();
+        } 
+        
+    }
+}
