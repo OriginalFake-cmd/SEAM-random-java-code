@@ -1,57 +1,61 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 import java.util.Scanner;
-
 class HelloWorld {
     public static void main(String[] args) {
-        
-     Scanner scan = new Scanner(System.in);
-     
-     while(true) {
-        
-        System.out.println("Enter side: ");
-    
-         
-         if (!scan.hasNextInt()) {
-             System.out.println("Must be an integer, try again.");
-             scan.nextLine();
-             continue;
-              
-         }
-         int side = scan.nextInt();
-         if (side < 0) {
-                 System.out.println("No Negatives, try again.");
-                 continue;
-             }
-         if (side == 0){
+        while (true) {
+       Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the number of month. Press 0 to exit.");
+       int month = scan.nextInt();
+       System.out.println(season(month));
+        if (month == 0){
              break;
-         }
-         printside(side);
-      printarea(side);
-      printvolume(side);
-  
+        }
+
       
-       
-     }
-        
-      
+}
+}
+    public static String season(int month){
+    if (month == 1){
+       return "January";
     }
-    
-    public static void printside(int side){
-        System.out.println("The perimeter is: " + side * 4 );
-        
+     else if (month == 2){
+        return "February";
     }
-    
-    public static void printarea(int side){
-        int area = side * side;
-        System.out.println("The area is: " + area);
-        
+    else if (month == 3) {
+        return "March";
     }
-    
-    public static void printvolume(int side){
-        int volume = side * side * side;
-        System.out.println("The volume is: " + volume);
+      else if (month == 4) {
+        return "April";
     }
-    
-   
+      else if (month == 5) {
+        return "May";
     }
+      else if (month == 6) {
+        return "June";
+    }
+      else if (month == 7) {
+        return "July";
+    }
+      else if (month == 8) {
+        return "August";
+    }
+      else if (month == 9) {
+        return "September";
+    }
+      else if (month == 10) {
+        return "October";
+    }
+      else if (month == 11) {
+        return "November";
+    }
+      else if (month == 12) {
+        return "December";
+    }
+    else{
+        return "Invalid number";
+    }
+
+} 
+}
+ 
