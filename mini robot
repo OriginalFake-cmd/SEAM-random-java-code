@@ -1,0 +1,13 @@
+package domain;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        MiniRobot miniRobot = new MiniRobot();
+        miniRobot.initalize();
+        miniRobot.move();
+        miniRobot.rotate();
+        
+    }
+
+}
