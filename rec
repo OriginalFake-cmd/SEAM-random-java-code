@@ -1,0 +1,14 @@
+ package domain;
+ class rectangle {
+    int length;
+    int width;
+    public int area() {
+       int a = length * width;
+        return a;
+    } 
+    public int perimeter() {
+        int p = (length * 2) + (width * 2);
+        return p;
+    }
+    
+}
